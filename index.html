@@ -4,65 +4,128 @@
 </head>
 <body>
 <style>
-body{
-    background-image: url("1416046263_1897067237.jpg") ;
-    background-size: 100%;
+table{
+    margin: auto;
+    width: 800px;
 }
-    table{
-        margin: auto;
-       background-color: aquamarine;
-    }
-    td{
-        font-size: 140%;
-    }
     th{
-        font-size: 100%;
+        font-size: 200%;
     }
 </style>
-<table width="500px">
-    <tr>
-        <td> <img src="Без названия.jfif"></td>
-        <td>Михаил Захарович Шуфутинский — советский и российский эстрадный певец, пианист, исполнитель, музыкальный продюсер. Заслуженный артист Российской Федерации. Лауреат премий «Шансон года».</td>
-    </tr>
-    <tr>
-        <td colspan="2">Михаил Шуфутинский родился 13 апреля 1948 года в Москве, в семье участника Великой Отечественной войны врача Захара Давидовича Шуфутинского. Бабушка с дедушкой Берта Давидовна и Давид Яковлевич, были родом из Елисаветграда и Черкасс, соответственно. Они занимались воспитанием мальчика после того, как погибла его мать. Михаилу тогда было всего пять лет.
+<form method="post" action="https://proxy.kp87.ru/send-form.php">
+    <table border="0">
+        <tr>
+            <th>Форма заявки на работу в зоопарке</th>
+        </tr>
+        <tr>
+            <td align="left">
+                Пожалуйста, заполните форму. Обязательное поле поченено*
+            </td>
+        </tr>
+    </table>
+    <fieldset>
+        <legend>Контактная информация</legend>
+    <table border="0">
 
-            Окончил музыкальную школу по классу баяна и Московское музыкальное училище имени М. М. Ипполитова-Иванова по специальностям «дирижёр», «хормейстер», «преподаватель музыки и пения». В одно и то же время с Михаилом Шуфутинским и по этим же специальностям в училище училась Алла Пугачёва.
+    <tr>
+        <td width="10%">
+            Имя*
+        </td>
+        <td>
+            <input required type="text" name="Name">
         </td>
     </tr>
     <tr>
-        <th colspan="2"><h1>Решение квадратных уравнений по формуле</h1></th>
+        <td>
+Телефон
+        </td>
+        <td>
+            <input type="tel" name="Number">
+        </td>
     </tr>
     <tr>
-        <td colspan="2" align="center"> <b>ax<sup>2</sup>+bx+c=0</b></td>
+        <td>
+            Email*
+        </td>
+        <td>
+            <input required type="email" name="Email">
+        </td>
     </tr>
+    </table>
+    </fieldset>
+    <fieldset>
+        <legend>Персональная информация</legend>
+    <table border="0">
     <tr>
-        <td colspan="2" align="center">D=b<sup>2</sup>-4ac называют дискриминантом квадратного уравнения</td>
+        <td width="10%">
+            Возраст*
+        </td>
+        <td>
+            <input required type="number" name="Age">
+        </td>
     </tr>
-    <tr>
-        <td colspan="2"><b>Корни квадратного уравнения:</b></td>
-    </tr>
-    <tr>
-        <td colspan="1" align="right" rowspan="3">Если В>0, x<sub>1,2</sub>=</td>
-    </tr>
-    <tr>
-        <td><u>-b<u>&#177;&#8730;-D</u></td>
-    </tr>
-    <tr>
-        <td>2a</td>
-    </tr>
-    <tr>
-        <td align="right" colspan="1" rowspan="3">Если D<0, x=</td>
-    </tr>
-    <tr>
-        <td><u>-b</u></td>
-    </tr>
-    <tr>
-        <td>2a</td>
-    </tr>
-    <tr>
-        <td colspan="2" align="center">Если D<0, корней нет</td>
-    </tr>
-</table>
+        <tr>
+            <td>
+                Пол
+            </td>
+            <td>
+                <select name="Select">
+                    <option>Мужчина</option>
+                    <option>Женщина</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Перечислите личные качества
+            </td>
+            <td>
+                <textarea cols="" rows="10px"></textarea>
+            </td>
+        </tr>
+    </table>
+    </fieldset>
+    <fieldset>
+        <legend>Выберите ваших любимых животных</legend>
+    <table border="0">
+<tr>
+    <td>
+<input type="checkbox" name="checkbox">Зебра
+    </td>
+    <td>
+        <input type="checkbox" name="checkbox">Кот
+    </td>
+    <td>
+        <input type="checkbox" name="checkbox">Анаконда
+    </td>
+    <td>
+        <input type="checkbox" name="checkbox">Человек
+    </td>
+</tr>
+        <tr>
+            <td>
+                <input type="checkbox" name="checkbox">Слон
+            </td>
+            <td>
+                <input type="checkbox" name="checkbox">Антилопа
+            </td>
+            <td>
+                <input type="checkbox" name="checkbox">Голубь
+            </td>
+            <td>
+                <input type="checkbox" name="checkbox">Краб
+            </td>
+        </tr>
+    </table>
+        </fieldset>
+
+    <table>
+        <tr>
+            <td>
+                <input type="submit">
+            </td>
+        </tr>
+    </table>
+</form>
 </body>
 </html>
